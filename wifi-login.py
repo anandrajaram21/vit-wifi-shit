@@ -1,9 +1,8 @@
 import requests
 import subprocess
+import os
 import time
 from dotenv import dotenv_values
-
-config = dotenv_values(".env")
 
 
 def login(username, password):
@@ -87,4 +86,6 @@ def connect_vit_wifi(connect_wifi):
     main()
 
 
+dir_path = os.path.dirname(os.path.realpath(__file__))
+config = dotenv_values(f"{dir_path}/.env")
 connect_vit_wifi(False)
