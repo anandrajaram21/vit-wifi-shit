@@ -24,6 +24,13 @@ This repo has 3 Python scripts
 2. wifi-login.py - This just logs you into the wifi (assumes you are already connected to VIT wifi) (Much faster than 1)
 3. wifi-logout.py - idk why you'll need it, but its just there
 
-Change variables in the scripts to have your specific username and password.
+Please install the following using pip install
+
+1. requests
+2. python-dotenv
+
+Copy the .env.example file to a .env file
+
+Change variables in the .env to have your specific username and password.
 
 Create a macOS shortcut to run the script. If something doesn't work, google it.
