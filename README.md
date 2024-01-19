@@ -14,6 +14,8 @@ To enable the captive portal again (idk, if you feel sussy about something)
 sudo defaults delete /Library/Preferences/SystemConfiguration/com.apple.captive.control Active
 ```
 
+Source: [https://apple.stackexchange.com/questions/45418/how-to-automatically-login-to-captive-portals-on-os-x/140843#140843](https://apple.stackexchange.com/questions/45418/how-to-automatically-login-to-captive-portals-on-os-x/140843#140843)
+
 Also, pls restart your mac after running the above commands
 
 Now that the pain in the ass captive portal is out of the way, we can just move on to the actual VIT Wifi login.
